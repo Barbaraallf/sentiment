@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 import joblib
 
 # Load your trained model
-model = joblib.load("path/to/your_model.pkl")
+model = joblib.load("finalized_model.pkl")
 
 def clean_text(text):
     text = text.lower()
